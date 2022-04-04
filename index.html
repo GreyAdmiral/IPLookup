@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>IP Lookup</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="content">
+			<div class="container">
+				<div class="ipaddress">
+					<div class="ipaddress__title">IP Lookup</div>
+					<div class="ipaddress__body">
+						<form action="#" class="ipaddress__input ipaddress__input--margin" name="ipaddress">
+							<input type="text" name="address" id="address" maxlength="15" autocomplete="off">
+							<input type="button" name="button" value="Проверить IP">
+						</form>
+						<div class="ipaddress__info"></div>
+					</div>
+				</div>
+				<div class="msmessage">
+					<div class="msmessage__body">Ваш браузер не поддерживается!</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__body"><span>Чтобы скопировать значение дважды по нему кликните.</span></div>
+			</div>
+		</footer>
+	</div>
+	<script class="script" type="text/javascript" src="js/loadIP.min.js"></script>
+</body>
+
+</html>
